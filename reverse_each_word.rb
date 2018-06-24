@@ -4,3 +4,5 @@ a = sentence.split(" ")
 
 b = a.collect do |word|
     word.reverse end
+    
+puts b.inspect
