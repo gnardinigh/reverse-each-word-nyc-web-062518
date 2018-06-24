@@ -8,3 +8,4 @@ b = a.collect do |word|
     word.reverse end
     
 b.join(" ")
+end
